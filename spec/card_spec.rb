@@ -1,4 +1,5 @@
 class Card
+  def initialize(type); end
 end
 
 RSpec.describe 'Card' do
