@@ -1,7 +1,9 @@
 class Card
   attr_reader :type
 
-  def initialize(type); end
+  def initialize(type)
+    @type = type
+  end
 end
 
 RSpec.describe 'Card' do
